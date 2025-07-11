@@ -1,59 +1,21 @@
 :root {
-    --brand-standard: #0085FF;
-    --text-primary: #000;
-    --text-primary-light: #666;
-    --text-secondary-01: #999;
-    --text-secondary-02: #CCC;
     --text-white: #FFF;
-    --text-link: #2E77E5;
-    --text-navigation-01: #000;
-    --text-navigation-02: #000;
-    --text-error: #FF5765;
-    --icon-primary: #000;
-    --icon-secondary-01: #999;
-    --icon-secondary-02: #CCC;
-    --icon-white: #FFF;
-    --icon-navigation-01: #000;
-    --icon-navigation-02: #000;
-    --feedback-success: #15D173;
-    --feedback-warning: #FFB300;
-    --feedback-error: #FF5965;
-    --background-black: #000;
-    --background-gray: #F5F5F5;
-    --background-white: #FFF;
-    --background-dialogue: #FFF;
-    --background-dialogue-pressed: #E6E6E6;
-    --background-list: #FFF;
-    --background-list-pressed: #E6E6E6;
-    --background-stick: #F5F5F5;
-    --background-chat-bg: #F1F1F1;
-    --divider-standard: #E6E6E6;
-    --divider-light: #F5F5F5;
-    --bubble-host: var(--brand-standard);
-    --bubble-guest: #FFF;
-    --bubble-host-text: #FFF;
-    --bubble-guest-text: #000;
-}
-a {
-    outline: 0;
-    text-decoration: none;
-    color: #359eff;
+    --text-primary: #000;
 }
 * {
 	margin: 0;
 	padding: 0;
 	border: none;
 	transition: all .2s;
+	box-sizing: border-box;
 }
 body{
-	background-image:url("bg01.jpg");
+	background-image:url("../html/image/bg01.jpg");
 	background-position: center;
 	background-size: cover;
-	}
-body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
+	margin: 0;
+	padding: 0;
+	height: 100%;
 }
 .quanjusuofang {
     width: 100%;
@@ -88,7 +50,7 @@ body {
     width: 170px;
     height: 30px;
     background-position: 25% 25%;
-    background-image: url(meitu.svg);
+    background-image: url(../html/image/meitu.svg);
     background-size: cover;
 }
 .header-wrap::after {
@@ -147,7 +109,7 @@ body {
     z-index: 8;
     width: 22px;
     height: 22px;
-    background-image: url(gongsitubiao.png);
+    background-image: url(../html/image/gongsitubiao.png);
     background-position: 50% 50%;
     background-size: cover;
     border-radius: 5px;
@@ -172,9 +134,6 @@ body {
     top: 650%;
     transform: translate(-130%,-40%);
 }
-* {
-    box-sizing: border-box;
-}
 .index_download__ttu2W
 .index_logo__mgIul {
     width: 382px;
@@ -194,9 +153,6 @@ img {
 .index_light__YeoIC {
     color: rgb(255, 255, 255);
 }
-article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
-    display: block;
-}
 .index_download-list__HYwGt {
     width: 385px;
     margin-top: 30px;
@@ -213,20 +169,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, 
 .index_download-item__7vZGf .index_download-link__J6fr4 {
     width: 174px;
     height: auto;
-}
-img {
-    border: 0;
-}
-.index_footer-action__oX288 {
-    position: absolute;
-    bottom: 28px;
-    left: 50%;
-    transform: translate(-50%);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
 }
 
 /* Dropdown styles */
